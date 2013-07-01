@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Duck Duck Context",
+  "description": "Adds bang-searches to context menu.",
+  "version": "1.0",
+
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": [
+        "duck.js"
+    ]
+  }
+}
